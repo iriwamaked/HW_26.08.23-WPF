@@ -1,0 +1,34 @@
+﻿<Window x:Class="Wrap_Grid.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wrap_Grid"
+        mc:Ignorable="d"
+        Title="WrapPanel+Grid" Height="300" Width="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <WrapPanel>
+            <Button Background="Navy"  Margin="2">Navy</Button>
+            <Button Background="Blue" Margin="2">Blue</Button>
+            <Button Background="Aqua" Margin="2">Aqua</Button>
+            <Button Background="Teal" Margin="2">Teal</Button>
+            <Button Background="Olive" Margin="2">Olive</Button>
+            <Button Background="Green" Margin="2">Green</Button>
+            <Button Background="Lime" Margin="2">Lime</Button>
+            <Button Background="Yellow" Margin="2">Yellow</Button>
+            <Button Background="Orange" Margin="2">Orange</Button>
+            <Button Background="Red" Margin="2">Red</Button>
+            <Button Background="Maroon" Margin="2">Maroon</Button>
+            <Button Background="Fuchsia" Margin="2">Fushsia</Button>
+            <Button Background="Purple" Margin="2">Purple</Button>
+            <Button Background="Black" Margin="2">Black</Button>
+            <Button Background="Silver" Margin="2">Silver</Button>
+            <Button Background="Gray" Margin="2">Grauy</Button>
+            <Button Background="White" Margin="2">White</Button>
+        </WrapPanel>
+    </Grid>
+</Window>
